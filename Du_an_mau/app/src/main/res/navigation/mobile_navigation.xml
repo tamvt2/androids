@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_PhieuMuon">
+
+    <fragment
+        android:id="@+id/nav_PhieuMuon"
+        android:name="com.example.du_an_mau.fragment.PhieuMuonFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_phieu_muon" />
+
+    <fragment
+        android:id="@+id/nav_LoaiSach"
+        android:name="com.example.du_an_mau.fragment.LoaiSachFragment"
+        android:label="@string/menu_type"
+        tools:layout="@layout/fragment_loai_sach" />
+
+    <fragment
+        android:id="@+id/nav_Sach"
+        android:name="com.example.du_an_mau.fragment.SachFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/fragment_sach" />
+
+    <fragment
+        android:id="@+id/nav_ThanhVien"
+        android:name="com.example.du_an_mau.fragment.ThanhVienFragment"
+        android:label="@string/menu_member"
+        tools:layout="@layout/fragment_thanh_vien" />
+
+    <fragment
+        android:id="@+id/sub_Top"
+        android:name="com.example.du_an_mau.fragment.TopFragment"
+        android:label="@string/menu_max"
+        tools:layout="@layout/fragment_top" />
+
+    <fragment
+        android:id="@+id/sub_DoanhThu"
+        android:name="com.example.du_an_mau.fragment.DoanhThuFragment"
+        android:label="@string/menu_turnover"
+        tools:layout="@layout/fragment_doanh_thu" />
+
+    <fragment
+        android:id="@+id/sub_AddUser"
+        android:name="com.example.du_an_mau.fragment.AddUserFragment"
+        android:label="@string/menu_adduser"
+        tools:layout="@layout/fragment_add_user" />
+
+    <fragment
+        android:id="@+id/sub_Pass"
+        android:name="com.example.du_an_mau.fragment.ChangePassFragment"
+        android:label="@string/menu_repass"
+        tools:layout="@layout/fragment_change_pass" />
+</navigation>

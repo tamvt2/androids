@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_type" />
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/img_5"
+            android:title="@string/menu_book" />
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/img_6"
+            android:title="@string/menu_member" />
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/sub_Top"
+                android:icon="@drawable/img_2"
+                android:title="@string/menu_max" />
+            <item
+                android:id="@+id/sub_DoanhThu"
+                android:icon="@drawable/img_10"
+                android:title="@string/menu_turnover" />
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/sub_AddUser"
+                android:icon="@drawable/adduser"
+                android:visible="false"
+                android:title="@string/menu_adduser" />
+            <item
+                android:id="@+id/sub_Pass"
+                android:icon="@drawable/img_4"
+                android:title="@string/menu_repass" />
+            <item
+                android:id="@+id/sub_Logout"
+                android:icon="@drawable/img_3"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+</menu>

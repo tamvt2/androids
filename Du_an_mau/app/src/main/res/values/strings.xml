@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Du_an_mau</string>
+    <string name="prompt_username">Tên đăng nhập</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="cancel">Hủy</string>
+    <string name="login">Đăng nhập</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Quản Lý Phiếu Mượn</string>
+    <string name="menu_type">Quản Lý Loại Sách</string>
+    <string name="menu_book">Quản Lý Sách</string>
+    <string name="menu_member">Quản Lý Thành Viên</string>
+    <string name="menu_max">10 Sách mượn nhiều nhất</string>
+    <string name="menu_turnover">Doanh thu</string>
+    <string name="menu_adduser">Thêm tài khoản</string>
+    <string name="menu_repass">Đổi mật khẩu</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
